@@ -13,10 +13,10 @@ a{
 
 @media (max-width:700px) {
     .body {
-        font-size: 5rem;
+        font-size: 99%;
     }
 
     .a{
-        font-size: 2rem;
+        font-size: 99%;
     }
 }
