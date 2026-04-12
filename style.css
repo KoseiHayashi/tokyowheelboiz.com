@@ -10,3 +10,13 @@ a{
     text-emphasis: none;
     padding: 14px;
 }
+
+@media (max-width:700px) {
+    .body {
+        font-size: 5rem;
+    }
+
+    .a{
+        font-size: 2rem;
+    }
+}
