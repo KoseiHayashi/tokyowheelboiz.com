@@ -1,7 +1,7 @@
 body{
     text-align: center;
     display: flex;
-    justify-content: center;
+    justify-content: cen
     align-items: center;
     /* font-size: 100px; */
 }
@@ -14,10 +14,10 @@ a{
 
 @media (max-width:700px) {
     body {
-        font-size: 5rem;
+        font-size:  10rem;
     }
 
     a{
-        font-size: 3rem;
+        font-size: 8rem;
     }
 }
