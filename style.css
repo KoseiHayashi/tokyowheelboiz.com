@@ -3,6 +3,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    /* font-size: 100px; */
 }
 
 a{
@@ -12,11 +13,11 @@ a{
 }
 
 @media (max-width:700px) {
-    .body {
-        font-size: 99%;
+    body {
+        font-size: 5rem;
     }
 
-    .a{
-        font-size: 99%;
+    a{
+        font-size: 3rem;
     }
 }
