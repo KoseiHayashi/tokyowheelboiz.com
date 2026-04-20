@@ -1,23 +1,38 @@
+@font-face {
+  font-family: 'zuume-bold-italic';
+  src: url('/zuume-bold-italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body{
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
+    /* font-family: "zuume-bold-italic"; */
     /* font-size: 100px; */
 }
+
+.TOKYOWHEELBOiZ_img{
+    width: 1%;
+}
+
 
 a{
     display: block;
     text-emphasis: none;
     padding: 14px;
+    font-family: "zuume-bold-italic"
 }
 
-@media (max-width:700px) {
+@media (max-width:1000px) {
     body {
-        font-size: 3rem;
+        font-size: 40px;
     }
 
     a{
-        font-size: 1rem;
+        font-size: 35px;
+        padding: 50px;
     }
 }
